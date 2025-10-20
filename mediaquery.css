@@ -1,0 +1,307 @@
+/* --- Laptop screens --- */
+@media (max-width: 1200px) {
+    .aboutbox,
+    .serbox,
+    .wcubox,
+    .conbox {
+    margin: 0 5%;
+    height: auto;
+    }
+
+    .herowcu{
+    margin-top: 40px;
+    }
+
+    .nav-links {
+    gap: 10px;
+    font-size: 18px;
+    }
+
+    .aboutcontent,
+    .conboxcontent {
+    height: 75vh;
+    top: 10%;
+    margin: 2%;
+   }
+
+    .hook {
+    font-size: 32px;
+    padding: 15px 30px;
+    }
+
+    .aboutcontent p,
+    .wcup,
+    .text-des {
+    font-size: 16px;
+    padding: 10px 30px;
+    }
+}
+
+/* --- Tablets (landscape & portrait) --- */
+@media (max-width: 1020px) {
+  nav {
+    padding: 10px;
+    }
+
+    .nav-links {
+    gap: 10px;
+    font-size: 15px;
+    }
+
+    .logob {
+    height: 300px;
+    }
+
+   .tagline {
+    font-size: 300%;
+    }
+
+    .serbox{
+        margin-top: -10px;
+    }
+    .wcuherocon {
+        height: 100px;
+    }
+
+    .statment-wcu,
+    .statment-wcu1,
+    .statment-wcu2 {
+    height: 130px;
+    }
+
+    .wcucon{
+        margin-top: 0px;
+    }
+
+    .aboutbox,
+    .wcubox,
+    .conbox {
+    margin: 5%;
+    height: auto;
+    }
+
+    .vid-des{
+        height: 350px;
+    }
+
+    .aboutcontent {
+    top: 0;
+    margin: 5%;
+    height: auto;
+    }
+
+    .hook {
+    font-size: 28px;
+    }
+
+    .aboutcontent p,
+    .wcup,
+    .text-des {
+    font-size: 14px;
+    }
+
+    .abouticon {
+    justify-content: center;
+    margin: 10% auto;
+    }
+}
+
+/* --- Phones --- */
+@media (max-width: 900px) {
+    html {
+    scroll-padding-top: 90px; 
+    }
+    section{
+        scroll-margin-top: 0;
+    }
+    nav {
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    }
+
+.nav-links { /* this is for burger*/
+  display: none; 
+  flex-direction: column;
+  background-color: #333;
+  
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 5px 3px #3a3a3a;
+}
+
+.nav-links a {
+  padding: 10px;
+  color: #fde976;
+  text-decoration: none;
+  border-top: 1px solid #444;
+  border: none;
+}
+
+.burger {
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+  color: #fde976;
+}
+
+.nav-links.active {
+  display: flex;
+} /* this is the end of burger*/
+
+    .logo img {
+    height: 40px;
+    }
+
+    .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    }
+
+    .tagline {
+    font-size: 280%;
+    word-spacing: normal;
+    padding: 15px;
+    }
+
+    .vid {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: stretch; 
+    gap: 1px;
+    }
+
+    .samp{
+        font-size: 50px;
+    }
+
+    .tagline{
+        font-size: 40px;
+        top: 10%;
+    }
+
+    .styleFooter {
+        height: 80px;
+    }
+
+    #about{
+    scroll-margin-top: -45px;
+    min-height: 90vh;
+        }
+
+    .hcon::before{
+    margin-top: -100%;
+    }
+
+    .aboutcontent {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20%;
+    }
+
+    .hook {
+    font-size: 15px;
+    text-align: left;
+    padding: 10px;
+    }
+
+    .aboutcontent p,
+    .wcup,
+    .text-des {
+    font-size: 10px;
+    text-align: justify;
+    padding: 20px 15px;
+    }
+
+    .abouticon {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+
+    .abouticonimg,
+    .abouticonimg1 {
+    height: 40px;
+    }
+
+    .abouticon{
+        margin-left: 55%;
+    }
+
+    #services{
+        min-height: 120vh;
+        scroll-margin-top: -60px;
+    }
+
+    .sercontent{
+        min-height: 120vh;
+        margin-top: 40%;
+    }
+
+    .serimage {
+    height: 250px;
+    }
+
+    .conlogo {
+    padding-left: 0;
+    margin-top: 20%;
+    height: 40px;
+    }
+
+    #contacts{
+    min-height: 120vh;
+    scroll-margin-top: -60px;
+    }
+
+    .C{
+    font-size: 25px;
+    }
+
+    .conboxcontent{
+    min-height: 115vh;
+    margin-top: 20%;    
+    }
+
+    .text-des{
+    font-size: 15px;
+    }
+
+    #wcu{
+    min-height: 120vh;
+    scroll-margin-top: -60px;
+    }
+    .wcuherocon{
+        height: 0;
+        border: 1px #333 solid;
+    }
+
+    .wcusay{
+        font-size: 25px;
+    }
+
+    .statment-wcu{
+        min-height: 25vh;
+    }
+
+    .statment-wcu1{
+        min-height: 25vh;
+    }
+
+    .wcucon{
+        margin-top: 40px;
+    }
+
+    .herowcu{
+    display: flex;
+    flex-direction: column;
+    }
+
+}
